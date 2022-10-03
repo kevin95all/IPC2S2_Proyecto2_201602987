@@ -1,4 +1,10 @@
+from XML import XML
+
+
 class Main:
 
     def __init__(self):
-        pass
+        self.ruta = ''
+        self.op = ''
+        self.salida = False
+        self.archivo = XML()
