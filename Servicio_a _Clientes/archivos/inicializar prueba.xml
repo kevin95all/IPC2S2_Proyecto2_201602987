@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<listadoInicial>
+    <configInicial id="codigoConfiguracion01" idEmpresa="codEmpresa01" idPunto="codPunto01">
+        <escritoriosActivos>
+            <escritorio idEscritorio="codEscritorio01"/>
+            <escritorio idEscritorio="codEscritorio02"/>
+        </escritoriosActivos>
+        <listadoClientes>
+            <cliente dpi="DPI">
+                <nombre>nombreCliente</nombre>
+                <listadoTransacciones>
+                    <transaccion idTransaccion="codTrans" cantidad="cantTrans"/>
+                    <transaccion idTransaccion="codTrans" cantidad="cantTrans"/>
+                </listadoTransacciones>
+            </cliente>
+        </listadoClientes>
+    </configInicial>
+</listadoInicial>

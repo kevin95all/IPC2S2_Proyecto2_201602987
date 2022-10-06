@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<listaEmpresas>
+    <empresa id="codigoEmpresa01">
+        <nombre>nombreEmpresa</nombre>
+        <abreviatura>abreviatura</abreviatura>
+        <listaPuntosAtencion>
+            <puntoAtencion id="codigoPunto01">
+                <nombre>nombrePuntoServicio</nombre>
+                <direccion>direccionPuntoServicio</direccion>
+                <listaEscritorios>
+                    <escritorio id="codigoEscritorio01"> 
+                        <identificacion>identificacionEscritorio</identificacion>
+                        <encargado>nombreEncargado</encargado>
+                    </escritorio>
+                    <escritorio id="codigoEscritorio02"> 
+                        <identificacion>identificacionEscritorio</identificacion>
+                        <encargado>nombreEncargado</encargado>
+                    </escritorio>
+                </listaEscritorios>
+            </puntoAtencion>
+            <puntoAtencion id="codigoPunto02">
+                <nombre>nombrePuntoServicio</nombre>
+                <direccion>direccionPuntoServicio</direccion>
+                <listaEscritorios>
+                    <escritorio id="codigoEscritorio01"> 
+                        <identificacion>identificacionEscritorio</identificacion>
+                        <encargado>nombreEncargado</encargado>
+                    </escritorio>
+                    <escritorio id="codigoEscritorio02"> 
+                        <identificacion>identificacionEscritorio</identificacion>
+                        <encargado>nombreEncargado</encargado>
+                    </escritorio>
+                </listaEscritorios>
+            </puntoAtencion>
+        </listaPuntosAtencion>
+        <listaTransacciones>
+            <transaccion id="codigoTransaccion01"> 
+                <nombre>nombreTransaccion</nombre>
+                <tiempoAtencion>minutosAtencion</tiempoAtencion>
+            </transaccion>
+            <transaccion id="codigoTransaccion02"> 
+                <nombre>nombreTransaccion</nombre>
+                <tiempoAtencion>minutosAtencion</tiempoAtencion>
+            </transaccion>
+        </listaTransacciones>
+    </empresa>
+</listaEmpresas>
